@@ -30,9 +30,9 @@
 
               <div class="display-2 font-weight-bold" align="center">
                 <div class="bg-header-title">
-                  <div>Desenvolvimento de aplicativos?</div>
-                  <div class="mt-3">Criação de Sistemas?</div>
-                  <div class="mt-3">Criação de Websites?</div>
+					<div class="typewriter">
+						<h1>Desenvolvimento de aplicativos? Criação de Sistemas? Criação de Websites?</h1>
+					</div>
                 </div>
               </div>
             </v-col>
@@ -219,7 +219,7 @@ export default {
           type: "Website",
           link: "",
           description:
-            "Desenvolvimento de site para a empresa Support Informática, que trabalha com desenvolvimento de sistemas para NF-e, CT-e, MDF-e, NFC-e, PAF-ECF e sistemas sob encomenda.",
+            "Desenvolvimento de site para a empresa Support Informática, que trabalha com desenvolvimento para NF-e, CT-e, MDF-e, NFC-e, PAF-ECF.",
           technologies: [
             {
               name: "PHP",
@@ -246,7 +246,7 @@ export default {
           type: "Sistema",
           link: "",
           description:
-            "Desenvolvimento de sistema para controle interno de chamados, desenvolvido em PHP.",
+            "Desenvolvimento de sistema específico para controle interno de chamados, desenvolvido em PHP.",
           technologies: [
             {
               name: "PHP",
@@ -305,7 +305,7 @@ export default {
           type: "Website",
           link: "",
           description:
-            "Desenvolvimento de website para empresa Dody Toy. Site feito pela Canvas Studio(Free-lance).",
+            "Desenvolvimento de website para empresa Dody Toy. Empresa que trabalha com brinquedos para pássaros e arranhadores para gatos. Site feito pela Canvas Studio(Free-lance).",
           technologies: [
             {
               name: "PHP",
@@ -337,7 +337,7 @@ export default {
           type: "Website",
           link: "",
           description:
-            "Desenvolvimento de site e identidade visual para a empresa Neo Klima, que atua no ramo de refrigeração de ar condicionado.",
+            "Desenvolvimento de site e identidade visual para a empresa Neo Klima, que atua no ramo de refrigeração, prestando serviços como manutençaõ e vendas de ar condicionado.",
           technologies: [
             {
               name: "PHP",
@@ -438,7 +438,7 @@ export default {
           type: "Website",
           link: "",
           description:
-            "Desenvolvimento de Landing Page para o sistema de Arquivo Morto, desenvolvido em PHP.",
+            "Desenvolvimento de Landing Page para o sistema de Arquivo Morto, permitindo o acesso direto a versão demo do sistema.",
           technologies: [
             {
               name: "PHP",
@@ -527,6 +527,24 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+.typewriter h1 {
+font-size: 3rem !important;
+overflow: hidden;
+border-right: .15em solid #fff; 
+white-space: nowrap; 
+animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff; }
+}
 
 .gradient {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
